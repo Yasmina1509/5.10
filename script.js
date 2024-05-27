@@ -1,6 +1,6 @@
 document.getElementById('addBtn').addEventListener('click', function() {
-    var taskInput = document.getElementById('taskInput');
-    var task = taskInput.value;
+    let taskInput = document.getElementById('taskInput');
+    let task = taskInput.value;
     
     if (task) {
         var li = document.createElement('li');
